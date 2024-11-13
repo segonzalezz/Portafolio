@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a0a23;
+    color: #333;
+}
+
+.header {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #0a0a23;
+    padding: 20px;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.profile {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 50px auto;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.social-icons {
+    margin: 20px 0;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+p {
+    font-size: 16px;
+    color: #777;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Sección de Projects */
+.projects {
+    background-color: #0a0a23; 
+    padding: 40px 0;
+    text-align: center;
+    color: white; 
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; 
+    padding: 0 10px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.card h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: #0a0a23;
+}
+
+.card p {
+    margin-bottom: 15px;
+    color: #333; 
+}
+
+.card-link {
+    color: #0a0a23;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.card-link i {
+    margin-right: 5px;
+}
+
+/* Sección de Skills */
+.skills {
+    background-color: #0a0a23;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+}
+
+.skill {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.skill h3 {
+    color: #0a0a23;
+    margin-bottom: 15px;
+}
+
+.skill ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill ul li {
+    color: #333;
+    margin: 10px 0;
+    font-size: 16px;
+}
